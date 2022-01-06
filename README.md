@@ -7,6 +7,6 @@ Features are listed below:
 - A large element on the page that says "Don't hover over me" inside of it. When you hover over the element, the user receives the alert: "Hey, I told you not to hover over me!"
 - A form that includes inputs for a username, email, and password, as well as a submit button. The form:
   1.  Checks that the password is 12345678.
-  2.	If the password is incorrect, an alert message is sent.
+  2.	If the password is incorrect, an alert message is displayed.
   3.	If the message is correct, a heading message is displayed.
 -	BONUS: A form that takes in a sphere's radius, and outputs its volume in an alert.
