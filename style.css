@@ -1,0 +1,48 @@
+body 
+{
+    background-color: #202020;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10%;
+    text-align: center;
+}
+
+.buttons
+{
+    text-align: center;
+}
+
+#button-1
+{
+    width: 30%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    background-color: lightblue;
+}
+
+#button-2
+{
+    width: 30%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    background-color: lightblue;
+
+}
+
+#hoverMessage
+{
+    display:inline;
+    color:darkred;
+}
+
+#bonus
+{
+    color: yellow;
+}

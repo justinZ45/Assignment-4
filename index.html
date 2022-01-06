@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = script.js> </script>
+</head>
+<body>
+
+    <h1>Question 1</h1>
+    <div class = "buttons">
+        <button id = "button-1" onclick=click1()> Button 1 </button>
+        <button id = "button-2" onclick=click2()> Button 2 </button>
+    </div>
+       
+    <p id = "clickMessage"></p>
+    
+    <h1>Question 2</h1>
+
+    <h2 id = "hoverMessage" onmouseover=hoverAlert()> <span>Don't hover over me </span></h2>
+       
+    <h1>Question 3-4</h1>
+
+       <form id = "textForm">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"> <br>
+            <label for="password">Password:</label><br>
+            <input type="text" id="password" name="password"> <br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+       </form>
+    
+     <button id = "button-submit" onclick=checkPswd()> Submit </button>
+
+     <h1 id = bonus> BONUS Question</h1>
+
+      <form id = "sphereForm">
+            <label for="radius">Enter the radius of a sphere to calculate its value:</label><br>
+            <input type="text" id="radius" name="radius"> <br>
+      </form>
+ 
+     <button id = "button-submit-radius" onclick=calcVolume()> Submit </button> 
+        
+</body>
+</html>
